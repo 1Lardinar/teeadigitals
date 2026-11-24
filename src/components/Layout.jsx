@@ -12,8 +12,8 @@ const safe = {
 export function Logo({ light = true }) {
   return (
     <Link to="/" className={`logo ${light ? "" : "logo-dark"}`} aria-label="TEEA Digitals home">
-      <span className="logo-mark"><Footprint size={20} /></span>
-      <span>TEEA<b>.</b>Digitals</span>
+      <span className="logo-mark"><img src="../../Logo.png" sizes="0" alt="" /></span>
+      <span>TEEA-DIGITALS</span>
     </Link>
   );
 }
